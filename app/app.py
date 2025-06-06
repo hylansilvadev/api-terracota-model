@@ -20,11 +20,7 @@ app = FastAPI(
     version="1.0.0"
 )
 
-origins = [
-    "http://localhost:3000",
-    "https://www.terracota.vercel.app",
-    "https://spring-terracota-new.onrender.com",
-]
+origins = ["*"]
 
 
 app.add_middleware(
