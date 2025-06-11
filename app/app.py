@@ -1,5 +1,6 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+import pandas as pd
 from .models import (
     Product,
     ProductRecommendationRequest,
@@ -106,43 +107,54 @@ async def get_products():
 @app.post("/recommend/products/", response_model=ReactRecommendationResponse)
 async def recommend_products(request: ProductRecommendationRequest):
     """
-    Recomenda produtos similares, retornando no formato do React.
+    Recomenda produtos similares com base em um ID de produto.
     """
     try:
+        # 1. Buscar as features do produto de referência pelo ID
+        with database.get_cursor() as cursor:
+            cursor.execute(QUERIES["get_product_features"] + " WHERE id = %s", (request.product_id,))
+            product_data = cursor.fetchone()
+            if not product_data:
+                raise ValueError(f"Produto com ID {request.product_id} não encontrado")
+            columns = [desc[0] for desc in cursor.description]
+        
+        # Converter para DataFrame, o formato que o recomendador espera
+        product_features_df = pd.DataFrame([product_data], columns=columns)
+
+        # 2. Obter as recomendações
         recommended_ids = product_recommender.recommend_similar_products(
-            request.product_id,
+            product_features_df,
             request.n_recommendations
         )
         
         if not recommended_ids:
             return ReactRecommendationResponse(recommended_products=[])
         
+        # 3. Buscar os dados completos dos produtos recomendados para a resposta
+        # (Seu código para buscar os produtos pelo ID e formatar a resposta já está ótimo)
         with database.get_cursor() as cursor:
-            # ✅ CORREÇÃO APLICADA AQUI
-            # 1. Monta a string da query final
             final_query = QUERIES["get_similar_products"].format(
                 product_details_cte=QUERIES["product_details_cte"]
             )
-            
-            # 2. Executa a query final
-            cursor.execute(final_query, (recommended_ids,))
+            # Psycopg2 espera uma tupla para o 'IN'
+            cursor.execute(final_query, (tuple(recommended_ids),))
             
             recommended_products = cursor.fetchall()
             columns = [desc[0] for desc in cursor.description]
-        
+
         products_list = []
+        # (Seu código de formatação da resposta continua aqui...)
         for product in recommended_products:
-            
             product_data = ReactProductResponse(
                 id=str(product[columns.index('id')]),
                 nome=product[columns.index('name')],
                 descricao=product[columns.index('description')],
                 preco=float(product[columns.index('price')]),
-                estoque=int(product[columns.index('quantity')]), 
-                imagemUrl=product[columns.index('photo_url')],  
-                status='ativo',  
-                categoria=product[columns.index('type')],      
-                totalVendas=0 
+                estoque=int(product[columns.index('quantity')]),
+                imagemUrl=product[columns.index('photo_url')],
+                status='ativo',
+                categoria=product[columns.index('type')],
+                totalVendas=0
             )
             products_list.append(product_data)
         
@@ -154,17 +166,48 @@ async def recommend_products(request: ProductRecommendationRequest):
         logger.error(f"Erro ao gerar recomendações: {str(e)}")
         raise HTTPException(status_code=500, detail="Erro interno ao gerar recomendações")
 
+
 @app.on_event("startup")
 async def startup_event():
-    """Atividades de inicialização"""
-    logger.info("Iniciando serviço de recomendação...")
-    # Verificar conexão com o banco de dados
+    """Atividades de inicialização: Carrega dados, avalia e treina o modelo."""
+    logger.info("🚀 Serviço de recomendação iniciando...")
+    
+    # ... (verificação de conexão com o banco)
+
+    logger.info("🔄 Carregando dados dos produtos para o modelo...")
     try:
-        with database.get_connection():
-            logger.info("Conexão com o banco de dados estabelecida com sucesso")
+        with database.get_cursor() as cursor:
+            cursor.execute(QUERIES["get_product_features"])
+            products_data = cursor.fetchall()
+            columns = [desc[0] for desc in cursor.description]
+        
+        if not products_data:
+            logger.warning("⚠️ Nenhum produto encontrado no banco. O modelo não será treinado.")
+            return
+
+        all_products_df = pd.DataFrame(products_data, columns=columns)
+        
+        # --- ENGENHARIA DE FEATURE APLICADA AQUI ---
+        # 1. Criar a coluna de texto combinado
+        logger.info("🛠️  Aplicando engenharia de features: combinando nome e descrição.")
+        all_products_df['text_feature'] = all_products_df['name'] + ' ' + all_products_df['description']
+
+        logger.info(f"📊 {len(all_products_df)} produtos carregados. Amostra dos dados:")
+        # Mostra a nova coluna na "visualização"
+        print(all_products_df[['id', 'type', 'text_feature']].head().to_string())
+
+        # 2. Avaliar o modelo com o DataFrame modificado
+        product_recommender.evaluate(all_products_df, test_size=0.2, k=5)
+
+        # 3. Treinar o modelo final com TODOS os dados
+        logger.info("🎓 Treinando o modelo final com todos os dados disponíveis...")
+        product_recommender._train_model(all_products_df)
+        logger.info("✅ Modelo de recomendação pronto para receber requisições!")
+
     except Exception as e:
-        logger.error(f"Erro ao conectar ao banco de dados: {str(e)}")
+        logger.error(f"❌ Falha crítica durante a inicialização: {str(e)}")
         raise
+
 
 if __name__ == "__main__":
     import uvicorn
