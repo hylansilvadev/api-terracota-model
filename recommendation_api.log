@@ -1,0 +1,455 @@
+2025-06-11 18:06:13,112 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:06:17,512 - INFO - Criando features avançadas...
+2025-06-11 18:06:17,515 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:06:17,519 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:06:17,529 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:06:17,530 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:06:17,531 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:06:33,019 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:06:33,023 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:06:33,025 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,026 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:06:33,028 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,029 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:06:33,030 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,031 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:06:33,031 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,032 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:06:33,033 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,033 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:06:33,034 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,035 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:06:33,036 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,037 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:06:33,038 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,039 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:06:33,040 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,041 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:06:33,042 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,043 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:06:33,044 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,045 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:06:33,046 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,046 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:06:33,047 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,047 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:06:33,048 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,048 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:06:33,050 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,050 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:06:33,051 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,052 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:06:33,054 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,055 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:06:33,056 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,057 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:06:33,059 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,059 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:06:33,060 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,061 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:06:33,062 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,062 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:06:33,063 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,064 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:06:33,064 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:06:33,065 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:06:33,065 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:06:33,065 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:06:33,065 - INFO - Confiança Média: 0.5042 (50.42%)
+2025-06-11 18:06:33,065 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:06:33,065 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:06:33,065 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:06:33,065 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:06:33,065 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:07:53,164 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:07:57,304 - INFO - Criando features avançadas...
+2025-06-11 18:07:57,307 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:07:57,311 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:07:57,320 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:07:57,321 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:07:57,323 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:07:57,324 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:07:57,327 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:07:57,328 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,329 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:07:57,330 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,330 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:07:57,331 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,331 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:07:57,332 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,332 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:07:57,333 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,333 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:07:57,334 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,334 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:07:57,335 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,335 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:07:57,336 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,336 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:07:57,337 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,338 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:07:57,339 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,340 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:07:57,341 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,342 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:07:57,342 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,343 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:07:57,344 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,345 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:07:57,346 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,346 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:07:57,347 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,347 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:07:57,348 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,349 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:07:57,350 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,350 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:07:57,351 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,351 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:07:57,352 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,352 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:07:57,353 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,353 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:07:57,354 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,355 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:07:57,356 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,356 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:07:57,357 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:07:57,358 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:07:57,358 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:07:57,358 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:07:57,358 - INFO - Confiança Média: 0.5042 (50.42%)
+2025-06-11 18:07:57,358 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:07:57,358 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:07:57,358 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:07:57,358 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:07:57,358 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:09:47,092 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:09:51,577 - INFO - Criando features avançadas...
+2025-06-11 18:09:51,583 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:09:51,590 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:09:51,601 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:09:51,602 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:09:51,603 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:09:51,604 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:09:51,606 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:09:51,607 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,608 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:09:51,609 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,609 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:09:51,610 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,610 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:09:51,611 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,612 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:09:51,612 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,613 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:09:51,614 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,614 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:09:51,615 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,615 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:09:51,616 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,616 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:09:51,617 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,618 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:09:51,619 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,619 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:09:51,620 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,620 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:09:51,621 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,621 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:09:51,622 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,623 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:09:51,624 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,624 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:09:51,625 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,626 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:09:51,627 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,627 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:09:51,629 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,631 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:09:51,633 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,633 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:09:51,634 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,635 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:09:51,635 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,636 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:09:51,637 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,637 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:09:51,638 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,638 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:09:51,639 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:09:51,640 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:09:51,640 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:09:51,640 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:09:51,640 - INFO - Confiança Média: 0.5042 (50.42%)
+2025-06-11 18:09:51,640 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:09:51,640 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:09:51,640 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:09:51,640 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:09:51,640 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:18:00,825 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:18:07,225 - INFO - Criando features avançadas...
+2025-06-11 18:18:07,228 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:18:07,232 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:18:07,244 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:18:07,246 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:18:07,248 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:18:07,248 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:18:07,250 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:18:07,251 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:18:07,252 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:18:07,252 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:18:07,253 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:18:07,254 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:18:07,255 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:18:07,256 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:18:07,257 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:18:07,257 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:18:07,259 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:18:07,259 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:18:07,260 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:18:07,261 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:18:07,262 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:18:07,263 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:18:07,263 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:18:07,264 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:18:07,265 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:18:07,266 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:18:07,266 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:18:07,267 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:18:07,268 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:18:07,269 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:18:07,269 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:18:07,269 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:18:07,269 - INFO - Confiança Média: 0.5162 (51.62%)
+2025-06-11 18:18:07,269 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:18:07,269 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:18:07,269 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:18:07,269 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:18:07,269 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:19:01,269 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:19:05,462 - INFO - Criando features avançadas...
+2025-06-11 18:19:05,465 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:19:05,473 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:19:05,482 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:19:05,482 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:19:05,484 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:19:05,484 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:19:05,487 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:19:05,488 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:19:05,488 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:19:05,489 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:19:05,490 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:19:05,491 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:19:05,492 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:19:05,493 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:19:05,494 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:19:05,495 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:19:05,495 - INFO - Gerando recomendações híbridas para usuário g5e6f7h8i9j0k1l2m3n4o5p6q7r8s9t0
+2025-06-11 18:19:05,496 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:19:05,497 - INFO - Gerando recomendações híbridas para usuário i7g8h9j0k1l2m3n4o5p6q7r8s9t0u1v2
+2025-06-11 18:19:05,498 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:19:05,498 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:19:05,499 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:19:05,500 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:19:05,501 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:19:05,501 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:19:05,502 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:19:05,502 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:19:05,503 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b915
+2025-06-11 18:19:05,503 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:19:05,504 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:19:05,505 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:19:05,506 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:19:05,506 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:19:05,507 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:19:05,507 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:19:05,507 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:19:05,507 - INFO - Confiança Média: 0.5326 (53.26%)
+2025-06-11 18:19:05,507 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:19:05,508 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:19:05,508 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:19:05,508 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:19:05,508 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:20:39,245 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:20:42,821 - INFO - Criando features avançadas...
+2025-06-11 18:20:42,824 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:20:42,831 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:20:42,839 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:20:42,840 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:20:42,841 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:20:42,841 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:20:42,844 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:20:42,845 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:20:42,846 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:20:42,847 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:20:42,848 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:20:42,849 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:20:42,849 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:20:42,850 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:20:42,851 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:20:42,852 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:20:42,853 - INFO - Gerando recomendações híbridas para usuário g5e6f7h8i9j0k1l2m3n4o5p6q7r8s9t0
+2025-06-11 18:20:42,854 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:20:42,855 - INFO - Gerando recomendações híbridas para usuário i7g8h9j0k1l2m3n4o5p6q7r8s9t0u1v2
+2025-06-11 18:20:42,856 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:20:42,856 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:20:42,857 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:20:42,858 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:20:42,859 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:20:42,859 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:20:42,860 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:20:42,860 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:20:42,861 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b915
+2025-06-11 18:20:42,862 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:20:42,863 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:20:42,864 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:20:42,865 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:20:42,866 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:20:42,868 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:20:42,868 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:20:42,868 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:20:42,868 - INFO - Confiança Média: 0.5326 (53.26%)
+2025-06-11 18:20:42,868 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:20:42,868 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:20:42,868 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:20:42,869 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:20:42,869 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:21:13,932 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:21:17,645 - INFO - Criando features avançadas...
+2025-06-11 18:21:17,649 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:21:17,656 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:21:17,664 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:21:17,666 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:21:17,668 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:21:17,668 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:21:17,673 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:21:17,673 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:21:17,674 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:21:17,675 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:21:17,675 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:21:17,676 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:21:17,677 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:21:17,678 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:21:17,679 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:21:17,679 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:21:17,680 - INFO - Gerando recomendações híbridas para usuário g5e6f7h8i9j0k1l2m3n4o5p6q7r8s9t0
+2025-06-11 18:21:17,681 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:21:17,682 - INFO - Gerando recomendações híbridas para usuário i7g8h9j0k1l2m3n4o5p6q7r8s9t0u1v2
+2025-06-11 18:21:17,683 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:21:17,684 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:21:17,685 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:21:17,686 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:21:17,688 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:21:17,688 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:21:17,689 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:21:17,689 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:21:17,690 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b915
+2025-06-11 18:21:17,690 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:21:17,691 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:21:17,692 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:21:17,693 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:21:17,693 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:21:17,694 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:21:17,694 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:21:17,694 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:21:17,694 - INFO - Confiança Média: 0.5326 (53.26%)
+2025-06-11 18:21:17,694 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:21:17,694 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:21:17,694 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:21:17,694 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:21:17,694 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:22:20,218 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:22:22,960 - ERROR - Erro ao gerar recomendações para o usuário: cannot cast type record to character[]
+LINE 7:         WHERE p.id = ANY(CAST(('78c54e88b14e429eb30556ee90c3...
+                                 ^
+
+2025-06-11 18:23:50,015 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:23:54,189 - INFO - Criando features avançadas...
+2025-06-11 18:23:54,193 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:23:54,200 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:23:54,209 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:23:54,210 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:23:54,212 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:23:54,212 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:23:54,215 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:23:54,215 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:23:54,216 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:23:54,217 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:23:54,217 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:23:54,218 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:23:54,219 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:23:54,219 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:23:54,220 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:23:54,221 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:23:54,222 - INFO - Gerando recomendações híbridas para usuário g5e6f7h8i9j0k1l2m3n4o5p6q7r8s9t0
+2025-06-11 18:23:54,223 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:23:54,224 - INFO - Gerando recomendações híbridas para usuário i7g8h9j0k1l2m3n4o5p6q7r8s9t0u1v2
+2025-06-11 18:23:54,224 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:23:54,226 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:23:54,227 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:23:54,227 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:23:54,228 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:23:54,229 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:23:54,229 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:23:54,230 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:23:54,230 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b915
+2025-06-11 18:23:54,231 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:23:54,232 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:23:54,232 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:23:54,233 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:23:54,234 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:23:54,235 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:23:54,235 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:23:54,235 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:23:54,235 - INFO - Confiança Média: 0.5326 (53.26%)
+2025-06-11 18:23:54,235 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:23:54,235 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:23:54,235 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:23:54,235 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:23:54,235 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:25:20,461 - INFO - Iniciando preprocessamento avançado...
+2025-06-11 18:25:24,101 - INFO - Criando features avançadas...
+2025-06-11 18:25:24,106 - INFO - Construindo modelo de Matrix Factorization...
+2025-06-11 18:25:24,113 - INFO - Treinando modelo de conteúdo avançado...
+2025-06-11 18:25:24,125 - INFO - Treinando modelo colaborativo baseado em fatores latentes...
+2025-06-11 18:25:24,126 - INFO - Todos os modelos foram treinados com sucesso!
+2025-06-11 18:25:24,129 - INFO - Serviço de recomendação iniciado e pronto para receber requisições.
+2025-06-11 18:25:24,129 - INFO - Iniciando avaliação rigorosa do modelo...
+2025-06-11 18:25:24,133 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e
+2025-06-11 18:25:24,135 - INFO - Gerando recomendações híbridas para usuário 4fb1e29e9888416680610e28b0de9477
+2025-06-11 18:25:24,136 - INFO - Gerando recomendações híbridas para usuário 512dfba508924debbc29ef24bf75e392
+2025-06-11 18:25:24,136 - INFO - Gerando recomendações híbridas para usuário 52a863eba4d64ba28e959e442a1da6cf
+2025-06-11 18:25:24,137 - INFO - Gerando recomendações híbridas para usuário 825aad389e9b492ab0a2a425e02d166e
+2025-06-11 18:25:24,138 - INFO - Gerando recomendações híbridas para usuário c1a2b3d4e5f6g7h8i9j0k1l2m3n4o5p6
+2025-06-11 18:25:24,138 - INFO - Gerando recomendações híbridas para usuário d2b3c4e5f6g7h8i9j0k1l2m3n4o5p6q7
+2025-06-11 18:25:24,139 - INFO - Gerando recomendações híbridas para usuário e3c4d5f6g7h8i9j0k1l2m3n4o5p6q7r8
+2025-06-11 18:25:24,140 - INFO - Gerando recomendações híbridas para usuário f254d4eb7a05412d9aea955c858808ab
+2025-06-11 18:25:24,141 - INFO - Gerando recomendações híbridas para usuário f4d5e6g7h8i9j0k1l2m3n4o5p6q7r8s9
+2025-06-11 18:25:24,141 - INFO - Gerando recomendações híbridas para usuário g5e6f7h8i9j0k1l2m3n4o5p6q7r8s9t0
+2025-06-11 18:25:24,142 - INFO - Gerando recomendações híbridas para usuário h6f7g8i9j0k1l2m3n4o5p6q7r8s9t0u1
+2025-06-11 18:25:24,144 - INFO - Gerando recomendações híbridas para usuário i7g8h9j0k1l2m3n4o5p6q7r8s9t0u1v2
+2025-06-11 18:25:24,145 - INFO - Gerando recomendações híbridas para usuário j8h9i0k1l2m3n4o5p6q7r8s9t0u1v2w3
+2025-06-11 18:25:24,145 - INFO - Gerando recomendações híbridas para usuário k9i0j1l2m3n4o5p6q7r8s9t0u1v2w3x4
+2025-06-11 18:25:24,146 - INFO - Gerando recomendações híbridas para usuário l0j1k2m3n4o5p6q7r8s9t0u1v2w3x4y5
+2025-06-11 18:25:24,147 - INFO - Gerando recomendações híbridas para usuário m1k2l3n4o5p6q7r8s9t0u1v2w3x4y5z6
+2025-06-11 18:25:24,148 - INFO - Gerando recomendações híbridas para usuário n2l3m4o5p6q7r8s9t0u1v2w3x4y5z6a7
+2025-06-11 18:25:24,149 - INFO - Gerando recomendações híbridas para usuário o3m4n5p6q7r8s9t0u1v2w3x4y5z6a7b8
+2025-06-11 18:25:24,150 - WARNING - Poucas recomendações com alta confiança. Relaxando threshold.
+2025-06-11 18:25:24,150 - INFO - Gerando recomendações híbridas para usuário p4n5o6q7r8s9t0u1v2w3x4y5z6a7b8c9
+2025-06-11 18:25:24,151 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b915
+2025-06-11 18:25:24,152 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b916
+2025-06-11 18:25:24,152 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b917
+2025-06-11 18:25:24,153 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b918
+2025-06-11 18:25:24,154 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b919
+2025-06-11 18:25:24,154 - INFO - Gerando recomendações híbridas para usuário q5o6p7q8r9s0t1u2v3w4x5y6z7a8b920
+2025-06-11 18:25:24,155 - INFO - Resultados da Avaliação Rigorosa:
+2025-06-11 18:25:24,155 - INFO - Precisão Média: 0.0000 (0.00%)
+2025-06-11 18:25:24,155 - INFO - Recall Médio: 0.0000 (0.00%)
+2025-06-11 18:25:24,155 - INFO - Confiança Média: 0.5326 (53.26%)
+2025-06-11 18:25:24,155 - INFO - Sugestões para melhorar precisão:
+2025-06-11 18:25:24,155 - INFO - 1. Aumentar threshold de confiança
+2025-06-11 18:25:24,155 - INFO - 2. Coletar mais dados de feedback explícito
+2025-06-11 18:25:24,155 - INFO - 3. Implementar filtros de qualidade mais rigorosos
+2025-06-11 18:25:24,155 - INFO - 4. Usar deep learning para features mais sofisticadas
+2025-06-11 18:25:47,853 - INFO - Gerando recomendações híbridas para usuário 19e241cadc864bf99bfd90d86d02df5e

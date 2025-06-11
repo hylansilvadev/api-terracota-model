@@ -48,7 +48,7 @@ class ProductRecommendationRequest(BaseModel):
     n_recommendations: Optional[int] = 5
 
 class UserRecommendationRequest(BaseModel):
-    customer_id: int
+    customer_id: str
     n_recommendations: Optional[int] = 5
 
 class RecommendationResponse(BaseModel):

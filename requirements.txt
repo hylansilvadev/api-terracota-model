@@ -1,6 +1,7 @@
 annotated-types==0.7.0
 anyio==4.9.0
 click==8.2.1
+Faker==37.3.0
 fastapi==0.109.0
 h11==0.16.0
 idna==3.10
