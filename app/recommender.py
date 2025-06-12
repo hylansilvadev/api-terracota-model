@@ -95,6 +95,22 @@ class ProductRecommender:
             logger.error(f"Erro ao gerar recomendações: {str(e)}")
             raise ValueError(f"Erro ao processar recomendações: {str(e)}")
 
+    def debug_recommender_columns(self, product_features_df):
+        """Função de debug para verificar colunas disponíveis"""
+        logger.info(f"Colunas recebidas pelo recomendador: {product_features_df.columns.tolist()}")
+        logger.info(f"Valores da text_feature: {product_features_df['text_feature'].iloc[0] if 'text_feature' in product_features_df.columns else 'N/A'}")
+        
+        # Verificar se todas as colunas necessárias estão presentes
+        required_columns = ['text_feature', 'type', 'price']
+        missing_columns = [col for col in required_columns if col not in product_features_df.columns]
+        
+        if missing_columns:
+            logger.error(f"ERRO: Colunas necessárias ausentes: {missing_columns}")
+            return False
+        
+        logger.info("✅ Todas as colunas necessárias estão presentes")
+        return True
+    
     def evaluate(self, all_products_df: pd.DataFrame, test_size=0.2, k=5):
         """
         Divide os dados, treina o modelo e avalia a precisão das recomendações.

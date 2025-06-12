@@ -112,38 +112,47 @@ async def recommend_products(request: ProductRecommendationRequest):
     try:
         # 1. Buscar as features do produto de referência pelo ID
         with database.get_cursor() as cursor:
-            cursor.execute(QUERIES["get_product_features"] + " WHERE id = %s", (request.product_id,))
+            cursor.execute(QUERIES["get_product_by_id"], (request.product_id,))
             product_data = cursor.fetchone()
             if not product_data:
                 raise ValueError(f"Produto com ID {request.product_id} não encontrado")
             columns = [desc[0] for desc in cursor.description]
         
+        # DEBUG: Log dos dados recebidos
+        logger.info(f"Produto encontrado - ID: {request.product_id}")
+        logger.info(f"Colunas disponíveis: {columns}")
+        
         # Converter para DataFrame, o formato que o recomendador espera
         product_features_df = pd.DataFrame([product_data], columns=columns)
+        
+        # DEBUG: Verificar se text_feature foi criada
+        logger.info(f"DataFrame criado com colunas: {product_features_df.columns.tolist()}")
+        logger.info(f"text_feature criada: {'text_feature' in product_features_df.columns}")
 
         # 2. Obter as recomendações
-        recommended_ids = product_recommender.recommend_similar_products(
-            product_features_df,
-            request.n_recommendations
-        )
-        
-        if not recommended_ids:
+        try:
+            recommended_ids = product_recommender.recommend_similar_products(
+                product_features_df,
+                request.n_recommendations
+            )
+            logger.info(f"Recomendações geradas: {len(recommended_ids)} produtos")
+        except Exception as e:
+            logger.error(f"Erro no recomendador: {str(e)}")
+            # Retornar resposta vazia ao invés de erro 500
             return ReactRecommendationResponse(recommended_products=[])
         
-        # 3. Buscar os dados completos dos produtos recomendados para a resposta
-        # (Seu código para buscar os produtos pelo ID e formatar a resposta já está ótimo)
+        if not recommended_ids:
+            logger.info("Nenhuma recomendação encontrada")
+            return ReactRecommendationResponse(recommended_products=[])
+        
+        # 3. Buscar os dados completos dos produtos recomendados
         with database.get_cursor() as cursor:
-            final_query = QUERIES["get_similar_products"].format(
-                product_details_cte=QUERIES["product_details_cte"]
-            )
-            # Psycopg2 espera uma tupla para o 'IN'
-            cursor.execute(final_query, (tuple(recommended_ids),))
+            cursor.execute(QUERIES["get_similar_products"], (recommended_ids,))
             
             recommended_products = cursor.fetchall()
             columns = [desc[0] for desc in cursor.description]
 
         products_list = []
-        # (Seu código de formatação da resposta continua aqui...)
         for product in recommended_products:
             product_data = ReactProductResponse(
                 id=str(product[columns.index('id')]),
@@ -151,16 +160,18 @@ async def recommend_products(request: ProductRecommendationRequest):
                 descricao=product[columns.index('description')],
                 preco=float(product[columns.index('price')]),
                 estoque=int(product[columns.index('quantity')]),
-                imagemUrl=product[columns.index('photo_url')],
+                imagemUrl=product[columns.index('photo_url')] if product[columns.index('photo_url')] else "",
                 status='ativo',
                 categoria=product[columns.index('type')],
                 totalVendas=0
             )
             products_list.append(product_data)
         
+        logger.info(f"Retornando {len(products_list)} produtos recomendados")
         return ReactRecommendationResponse(recommended_products=products_list)
         
     except ValueError as e:
+        logger.error(f"Produto não encontrado: {str(e)}")
         raise HTTPException(status_code=404, detail=str(e))
     except Exception as e:
         logger.error(f"Erro ao gerar recomendações: {str(e)}")

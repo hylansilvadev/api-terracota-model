@@ -1,6 +1,5 @@
 QUERIES = {
-    # CTE que une as informações principais do produto para ser reutilizada.
-    # Isso evita a repetição dos mesmos JOINs em várias consultas.
+    # CTE que une as informações principais do produto
     "product_details_cte": """
         WITH product_details AS (
             SELECT 
@@ -23,21 +22,75 @@ QUERIES = {
         )
     """,
 
-    # Query para buscar todos os produtos usando a CTE.
+    # Query para buscar todos os produtos
     "get_all_products": """
-        {product_details_cte}
-        SELECT * FROM product_details;
+        WITH product_details AS (
+            SELECT 
+                p.id,
+                p.name,
+                p.description,
+                p.price,
+                p.quantity,
+                p.type,
+                p.created_at,
+                p.updated_at,
+                r.location AS photo_url,
+                c.name AS craftsman_name
+            FROM 
+                products p
+            LEFT JOIN 
+                resources r ON p.photo_id = r.id
+            LEFT JOIN 
+                craftsmen c ON p.craftsman_id = c.id
+        )
+        SELECT * FROM product_details
     """,
     
-    # Query para buscar produtos específicos por ID usando a CTE.
+    # Query para buscar produtos específicos por ID
     "get_similar_products": """
-        {product_details_cte}
-        SELECT * FROM product_details WHERE id = ANY(%s);
+        WITH product_details AS (
+            SELECT 
+                p.id,
+                p.name,
+                p.description,
+                p.price,
+                p.quantity,
+                p.type,
+                p.created_at,
+                p.updated_at,
+                r.location AS photo_url,
+                c.name AS craftsman_name
+            FROM 
+                products p
+            LEFT JOIN 
+                resources r ON p.photo_id = r.id
+            LEFT JOIN 
+                craftsmen c ON p.craftsman_id = c.id
+        )
+        SELECT * FROM product_details WHERE id = ANY(%s)
     """,
     
-    # Query para buscar os produtos mais populares, também usando a CTE.
+    # Query para buscar os produtos mais populares
     "get_popular_products": """
-        {product_details_cte}
+        WITH product_details AS (
+            SELECT 
+                p.id,
+                p.name,
+                p.description,
+                p.price,
+                p.quantity,
+                p.type,
+                p.created_at,
+                p.updated_at,
+                r.location AS photo_url,
+                c.name AS craftsman_name
+            FROM 
+                products p
+            LEFT JOIN 
+                resources r ON p.photo_id = r.id
+            LEFT JOIN 
+                craftsmen c ON p.craftsman_id = c.id
+        )
         SELECT 
             pd.*,
             COUNT(sp.sale_id) AS purchase_count
@@ -50,10 +103,10 @@ QUERIES = {
             pd.type, pd.created_at, pd.updated_at, pd.photo_url, pd.craftsman_name
         ORDER BY 
             purchase_count DESC
-        LIMIT %s;
+        LIMIT %s
     """,
 
-    # Query simples que não necessita da complexidade dos JOINs da CTE.
+    # Query para features básicas
     "get_product_features": """
         SELECT 
             id,
@@ -62,9 +115,20 @@ QUERIES = {
             price,
             type
         FROM 
-            products;
+            products
+    """,
+    
+    # Query específica para buscar um produto por ID (CORRIGIDA COM TEXT_FEATURE)
+    "get_product_by_id": """
+        SELECT 
+            id,
+            name,
+            description,
+            price,
+            type,
+            COALESCE(name, '') || ' ' || COALESCE(description, '') || ' ' || COALESCE(type, '') as text_feature
+        FROM 
+            products
+        WHERE id = %s
     """
 }
-
-# Exemplo de como você usaria isso em seu código Python, formatando a string:
-# cursor.execute(QUERIES["get_all_products"].format(product_details_cte=QUERIES["product_details_cte"]))
